@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Joakim Nivre"
   avatar           : "profile.png"
-  bio              : "Professor of Computational Linguistics"
-  location         : "Location"
+  bio              : 
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.co.uk/citations?user=lLBHtFUAAAAJ&hl=sv"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/joakim-nivre-a904ab6/"
   orcid            : "http://orcid.org/0000-0002-7873-3971"
   pinterest        :
   soundcloud       :
