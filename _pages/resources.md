@@ -5,11 +5,10 @@ permalink: /resources/
 author_profile: true
 ---
 
-# Software
-
+## Software
 * [MaltParser](https://maltparser.org)
 
-# Corpora
+## Corpora
 * [Universal Dependencies](https://universaldependencies.org)
 * [Swedish Treebank](/swedish_treebank/index.html)
 
