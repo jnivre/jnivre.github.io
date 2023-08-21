@@ -1,14 +1,14 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/bibliography.html
-
   - title: "Talks"
     url: /talks/    
 
   - title: "Teaching"
     url: /teaching/    
     
+  - title: "Publications"
+    url: /publications/bibliography.html
+
   - title: "CV"
-    url: /cv.pdf
+    url: /cv/cv.pdf
     
