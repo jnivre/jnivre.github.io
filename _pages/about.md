@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Joakim Nivre's Academic Homepage"
+title: "Joakim Nivre's Homepage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
