@@ -3,9 +3,6 @@ main:
   - title: "Resources"
     url: /resources/    
 
-  - title: "Publications"
-    url: /publications/
-
-  - title: "CV"
+  - title: "CV and Publications"
     url: /cv/
     
