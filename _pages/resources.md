@@ -10,5 +10,5 @@ author_profile: true
 
 ## Corpora
 * [Universal Dependencies](https://universaldependencies.org)
-* [Swedish Treebank](/swedish_treebank/index.html)
+* [Swedish Treebank](/files/swedish_treebank/index.html)
 
