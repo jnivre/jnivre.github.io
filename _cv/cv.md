@@ -1,1 +1,0 @@
-[Full CV](cv.pdf)
