@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 ---
 
 {% include base_path %}
 
-* [Short CV](/files/cv-short.pdf)
+* [Short CV](cv-short.pdf)
 * [Full CV](/files/cv.pdf)
