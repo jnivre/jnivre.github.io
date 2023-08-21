@@ -7,6 +7,7 @@ author_profile: true
 
 ## Software
 * [MaltParser](https://maltparser.org)
+* [MaltEval](/files/MaltEval.jar) (JAR)
 
 ## Corpora
 * [Universal Dependencies](https://universaldependencies.org)
