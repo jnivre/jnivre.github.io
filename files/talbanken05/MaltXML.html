@@ -3,12 +3,12 @@
 <head>
   <meta http-equiv="Content-Type"
  content="text/html; charset=utf-8">
-<title>Malt-XML, Malt-TAB and MaltConverter</title>
+<title>Malt-XML and Malt-TAB</title>
 </head>
 
 <body text=#000000 vLink=#551a8b aLink=#ff0000 link=#0000ee bgColor=#ffffff>
 
-<h1>Malt-XML, Malt-TAB and MaltConverter</h1>
+<h1>Malt-XML and Malt-TAB</h1>
 <a name="Malt-XML"><H3>Malt-XML</H3></a>
 Malt-XML is an XML-based representation format for dependency 
 treebanks. It is based on the following simple principles of representation: 
@@ -79,150 +79,6 @@ arbetsinkomster	nn.utr.plu.ind.nom	9	PR
 </pre>
 
 <p>An example document can be found <A href="example.tab.txt">here</A>.</p>
-<a name="TIGER-XML"><H3>Malt-XML (Malt-TAB) &lt;--&gt; TIGER-XML </H3>
-<p>For interchange purposes we have defined a conversion 
-from Malt-XML to <a href="http://www.id.cbs.dk/~mtk/ntn/tiger-xml.html" target="_blank">Nordic Treebank Network TIGER-XML</a>. 
-The above sentence will get the following representation in NTN TIGER-XML: </p>
-<PRE>
-&lt;s id="s2"&gt;
-  &lt;graph root="p2_3"&gt;
-    &lt;terminals&gt;
-      &lt;t id="w2_1" form="Genom" postag="pp"/&gt;
-      &lt;t id="w2_2" form="skattereformen" postag="nn.utr.sin.def.nom"/&gt;
-      &lt;t id="w2_3" form="införs" postag="vb.prs.sfo"/&gt;
-      &lt;t id="w2_4" form="individuell" postag="jj.pos.utr.sin.ind.nom"/&gt;
-      &lt;t id="w2_5" form="beskattning" postag="nn.utr.sin.ind.nom"/&gt;
-      &lt;t id="w2_6" form="(" postag="pad"/&gt;
-      &lt;t id="w2_7" form="särbeskattning" postag="nn.utr.sin.ind.nom"/&gt;
-      &lt;t id="w2_8" form=")" postag="pad"/&gt;
-      &lt;t id="w2_9" form="av" postag="pp"/&gt;
-      &lt;t id="w2_10" form="arbetsinkomster" postag="nn.utr.plu.ind.nom"/&gt;
-      &lt;t id="w2_11" form="." postag="mad"/&gt;
-    &lt;/terminals&gt;
-    &lt;nonterminals&gt;
-      &lt;nt id="p2_1" form="Genom" postag="pp" &gt;
-        &lt;edge idref="w2_1" label="--"/&gt;
-        &lt;edge idref="p2_2" label="PR"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_2" form="skattereformen" postag="nn.utr.sin.def.nom" &gt;
-        &lt;edge idref="w2_2" label="--"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_3" form="införs" postag="vb.prs.sfo" &gt;
-        &lt;edge idref="w2_3" label="--"/&gt;
-        &lt;edge idref="p2_1" label="ADV"/&gt;
-        &lt;edge idref="p2_5" label="SUB"/&gt;
-        &lt;edge idref="p2_11" label="IP"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_4" form="individuell" postag="jj.pos.utr.sin.ind.nom" &gt;
-        &lt;edge idref="w2_4" label="--"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_5" form="beskattning" postag="nn.utr.sin.ind.nom" &gt;
-        &lt;edge idref="w2_5" label="--"/&gt;
-        &lt;edge idref="p2_4" label="ATT"/&gt;
-        &lt;edge idref="p2_6" label="IP"/&gt;
-        &lt;edge idref="p2_7" label="APP"/&gt;
-        &lt;edge idref="p2_8" label="IP"/&gt;
-        &lt;edge idref="p2_9" label="ATT"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_6" form="(" postag="pad" &gt;
-        &lt;edge idref="w2_6" label="--"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_7" form="särbeskattning" postag="nn.utr.sin.ind.nom" &gt;
-        &lt;edge idref="w2_7" label="--"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_8" form=")" postag="pad" &gt;
-        &lt;edge idref="w2_8" label="--"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_9" form="av" postag="pp" &gt;
-        &lt;edge idref="w2_9" label="--"/&gt;
-        &lt;edge idref="p2_10" label="PR"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_10" form="arbetsinkomster" postag="nn.utr.plu.ind.nom" &gt;
-        &lt;edge idref="w2_10" label="--"/&gt;
-      &lt;/nt&gt;
-      &lt;nt id="p2_11" form="." postag="mad" &gt;
-        &lt;edge idref="w2_11" label="--"/&gt;
-      &lt;/nt&gt;
-    &lt;/nonterminals&gt;
-  &lt;/graph&gt;
-&lt;/s&gt;
-</PRE>
-<p>An example document can be found <A href="example_tiger.xml.txt">here</A>.</p>
-
-<a name="MaltConverter">
-<h1>MaltConverter 0.1</h1>
-</a>
-
-	<ul>
-	<li>
-	[<a href="MaltConverter.zip">download MaltConverter.zip</a>]<br>Click on this link to download MaltConverter 0.1. 
-The software can be used freely for non-commercial research and educational 
-purposes. It comes with no warranty, but we welcome all comments, bug reports, 
-and suggestions for improvements.
-</ul>
-<p>MaltConverter is a terminal-based program for conversion between the representation format for dependency 
-treebanks Malt-XML, Malt-TAB and TIGER-XML (NTN). It is also possible to map attribute names and tagsets. 
-<p>
-To run MaltEval you need the Java VM (tested for JRE 1.4.1). <br>
-Usage: <b>java -jar MaltConverter.jar &lt;conversion&gt; &lt;mapfile&gt; &lt;infile&gt; &lt;outfile&gt;</b>
-<p>
-<TABLE BORDER=1 CELLPADDING=3 CELLSPACING=3>
-<tr><th>Parameter</th><th>Description</th></tr>
-<tr><td>conversion</td>
-<td>Specifies the conversion (e.g. malt2tiger).
-See table below for available conversions. </td></tr>
-<tr><td>mapfile</td><td>Path to the XML document which describes the mapping 
-of attribute names and tagsets. See example below.</td></tr>
-<tr><td>infile</td><td>The path to the source file which will be converted.</td></tr>
-<tr><td>outfile</td><td>The path to the destination file where the output will be saved.</td></tr>
-</table>
-<p>The table below lists the available conversions. In the table, <b>malt</b> stands for Malt-XML and 
-<b>tab</b> for Malt-TAB. 
-Note that it is possible to convert from Malt-XML to Malt-XML with <b>malt2malt</b>, which allows 
-mapping of tagsets and removal of attributes. When converting to Malt-TAB, tagset files
-will be created which can be used by MaltParser.</p>  
-<TABLE BORDER=1 CELLPADDING=3 CELLSPACING=3>
-<tr><th>Parameter</th><th>From</th><th>To</th></tr>
-<tr><td>tiger2malt</td>	<td>TIGER-XML</td>	<td>Malt-XML</td></tr>
-<tr><td>tiger2tab</td>	<td>TIGER-XML</td>	<td>Malt-TAB</td></tr>
-<tr><td>malt2tiger</td>	<td>Malt-XML</td>		<td>TIGER-XML</td></tr>
-<tr><td>malt2tab</td>		<td>Malt-XML</td>		<td>Malt-TAB</td></tr>
-<tr><td>malt2malt</td>	<td>Malt-XML</td>		<td>Malt-XML</td></tr>
-<tr><td>tab2malt</td>		<td>Malt-TAB</td>		<td>Malt-XML</td></tr>
-<tr><td>tab2tiger</td>	<td>Malt-TAB</td>		<td>TIGER-XML</td></tr>
-<tr><td>tab2tab</td>		<td>Malt-TAB</td>		<td>Malt-TAB</td></tr>
-</table>
-<p>A mapping file <b>must</b> be specified. A mapping file can be represented as follows:
-
-<pre>
-&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
-&lt;mapping id="Talbanken"&gt;
-    &lt;annotation&gt;
-      &lt;feature from="form" to="form"/&gt;
-      &lt;feature from="postag" to="postag"&gt;
-				&lt;value from="ab"/&gt;
-				&lt;value from="ab.kom"/&gt;
-				&lt;value from="ab.pos"/&gt;
-				...
-				&lt;value from="vb.sup.akt.mod"/&gt;
-				&lt;value from="vb.sup.sfo"/&gt;
-      &lt;/feature&gt;
-      &lt;feature from="head" to=""/&gt;
-      &lt;feature from="deprel" to="edgelabel"&gt;
-      	&lt;value from="ROOT" to="--"/&gt;  
-				&lt;value from="ADV"/&gt;
-				...
-				&lt;value from="XX"/&gt;
-      &lt;/feature&gt;
-   &lt;/annotation&gt;
-&lt;/mapping&gt;
-</pre>
-<p>The mapping file consists of a sequence of features (or attributes) with a mapping <b>from</b> 
-an attribute name <b>to</b> an attribute name. If the attribute names are the same, the <b>to</b> value
-should be identical to the <b>from</b> value. If the <b>to</b> value is the empty string, the attribute 
-will be suppressed in the output. 
-<p>
-For tagset values, the identity map can be achieved by simply excluding the <b>to</b> attribute
-(but the empty string is not allowed as a value of the <b>to</b> attribute).
+	
 </body>
 </html>
