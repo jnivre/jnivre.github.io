@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-* [Short CV](/files/cv-short.pdf)
-* [Full CV](/files/cv.pdf)
+* [Short CV](cv-short.pdf)
+* [Full CV](cv.pdf)
