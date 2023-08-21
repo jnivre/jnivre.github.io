@@ -1,0 +1,49 @@
+    <s id="P103_14">
+      <graph root="P103_14_507">
+        <terminals>
+          <t id="P103_14_1" word="För" pos="PP" morph="--" mambalex="PR" lemma="--" />
+          <t id="P103_14_2" word="telefonrådfrågning" pos="NN" morph="UTR SIN IND NOM" mambalex="VN  SS" lemma="--" />
+          <t id="P103_14_3" word="betalar" pos="VB" morph="PRS AKT" mambalex="VVPS" lemma="--" />
+          <t id="P103_14_4" word="försäkringskassan" pos="NN" morph="UTR SIN DEF NOM" mambalex="NNDDSS" lemma="--" />
+          <t id="P103_14_5" word="4" pos="RG" morph="NOM" mambalex="RO" lemma="--" />
+          <t id="P103_14_6" word="kronor" pos="NN" morph="UTR PLU IND NOM" mambalex="NN" lemma="--" />
+          <t id="P103_14_7" word="till" pos="PP" morph="--" mambalex="PR" lemma="--" />
+          <t id="P103_14_8" word="sjukvårdshuvudmannen" pos="NN" morph="UTR SIN DEF NOM" mambalex="NNDDSS" lemma="--" />
+          <t id="P103_14_9" word="." pos="MAD" morph="--" mambalex="IP" lemma="--" />
+        </terminals>
+        <nonterminals>
+          <nt id="P103_14_507" cat="ROOT" flags="--">
+            <edge idref="P103_14_506" label="MS" />
+          </nt>
+          <nt id="P103_14_506" cat="S" flags="--">
+            <edge idref="P103_14_505" label="OA" />
+            <edge idref="P103_14_3" label="FV" />
+            <edge idref="P103_14_504" label="SS" />
+            <edge idref="P103_14_503" label="OO" />
+            <edge idref="P103_14_502" label="OA" />
+            <edge idref="P103_14_9" label="IP" />
+          </nt>
+          <nt id="P103_14_505" cat="PP" flags="--">
+            <edge idref="P103_14_1" label="PR" />
+            <edge idref="P103_14_501" label="PA" />
+          </nt>
+          <nt id="P103_14_504" cat="NP" flags="--">
+            <edge idref="P103_14_4" label="HD" />
+          </nt>
+          <nt id="P103_14_503" cat="NP" flags="--">
+            <edge idref="P103_14_5" label="DT" />
+            <edge idref="P103_14_6" label="HD" />
+          </nt>
+          <nt id="P103_14_502" cat="PP" flags="--">
+            <edge idref="P103_14_7" label="PR" />
+            <edge idref="P103_14_500" label="PA" />
+          </nt>
+          <nt id="P103_14_501" cat="NP" flags="--">
+            <edge idref="P103_14_2" label="HD" />
+          </nt>
+          <nt id="P103_14_500" cat="NP" flags="--">
+            <edge idref="P103_14_8" label="HD" />
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>

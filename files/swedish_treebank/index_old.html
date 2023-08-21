@@ -1,0 +1,160 @@
+<HTML>
+
+<HEAD>
+<TITLE>Swedish Treebank, Version 1.0</TITLE>
+</HEAD>
+
+<BODY bgcolor="#FFFFFF">
+<img src="tree.jpg">
+
+<h1>Swedish Treebank</h1>
+
+The Swedish Treebank is a syntactically annotated corpus of Swedish, created by merging, harmonizing
+and partially reannotating two existing corpora, Talbanken [<a href="#T1">1</a>, <a href="#T2">2</a>] 
+and the Stockholm-Ume&aring; Corpus (SUC) [<a href="#SUC">3</a>]. The Swedish Treebank
+has been created through a collaboration between the Department of Linguistics and Philology at 
+Uppsala University and the School of Mathematics and Systems Engineering at V&auml;xj&ouml; University.
+The treebank is distributed by <a href="http://spraakbanken.gu.se/">Spr&aring;kbanken</a> at the 
+University of Gothenburg</a> and is freely available for research and education but requires the user 
+to have a license for SUC 2.0. 
+<p>
+Below we begin by describing the overall process of merging, harmonizing and reannotating the two source
+corpora, and the way in which this process has determined properties of the synthesized treebank. We then 
+go on to describe the following aspects of the treebank and its annotation:
+<ul>
+ <li>Tokenization and sentence segmentation
+ <li>Morphological annotation (parts of speech)
+ <li>Syntactic annotation (phrase structure and grammatical functions)
+ <li>Encoding format (TIGER-XML)
+</ul>
+We conclude with acknowledgments and references.
+
+<h2>Synthesizing the Swedish Treebank from Talbanken and SUC</h2>
+
+<b>Talbanken:</b> Talbanken is a syntactically annotated corpus, containing both written and 
+spoken Swedish, produced in the 1970s at the Department of Scandinavian Languages, 
+Lund University, by a group led by Ulf Teleman. In total, the corpus contains about 
+350,000 tokens, divided into 200,000 tokens of written text (professional prose and
+high school essays) and 150,000 tokens of spoken language (interviews, debates, and 
+informal conversations). The original annotation consists 
+of two layers: a lexical layer, with parts of speech and morphosyntactic features, 
+and a syntactic layer, with a relatively flat phrase structure and grammatical 
+functions. 
+<p>
+<b>SUC:</b> SUC is a balanced corpus of written Swedish, modeled after the Brown 
+Corpus and similar corpora
+for English, developed at Stockholm University and at Ume&aring; University 
+in a project led by Gunnel K&auml;llgren and Eva Ejerhed.
+The corpus consists of 1.2 million tokens of text from a variety of 
+different genres, the corpus encoding follows the guidelines of the 
+Text Encoding Initiative (TEI), and the annotation includes lemmatization,
+parts of speech, morphosyntactic features, and named entities. 
+<p>
+In order to merge and harmonize these two corpora into the 
+Swedish Treebank, we have adopted the following overall strategy:
+<ul>
+<li>Harmonize tokenization and sentence segmentation by making Talbanken
+conform to the principles of SUC.
+<li>Replace the lexical annotation layer in Talbanken with a morphological 
+annotation according to the SUC guidelines.
+<li>Convert the syntactic annotation layer in Talbanken to a more modern format 
+and annotate SUC according to the (converted) Talbanken guidelines. 
+</ul> 
+The overall guiding principle has been to modify SUC as little as possible (given
+that it is the larger corpus and also a de facto standard for Swedish) and to make
+Talbanken conform to SUC instead of the other way round. The only place where this
+is not possible is for the syntactic annotation layer, which is missing in SUC.
+<p>
+Version 1.0 of the Swedish Treebank includes all of SUC but only the professional 
+prose section of Talbanken. The annotation is limited to morphology (parts of speech + 
+morphological features) and syntax (phrase structure + grammatical functions). 
+The status of harmonization and manual revision is as follows:
+<ul>
+ <li>Tokenization and sentence segmentation in Talbanken has been modified to fit the principles of SUC.
+ <li>Morphological annotation has been manually checked and revised in both Talbanken and SUC. 
+ <li>Syntactic annotation has been partially checked in Talbanken (after automatic conversion from 
+the old format) but not in SUC, where the syntactic annotation has been performed automatically using
+a parser trained on Talbanken after conversion from the old format.
+</ul>
+In the following three sections, we give a brief description of the guidelines for tokenization 
+and sentence segmentation, morphological annotation, and syntactic annotation, respectively.
+
+<h2>Tokenization and Sentence Segmentation</h2>
+
+Tokenization follows the principles of SUC. Words separated by 
+whitespace or punctuation in the original text are considered separate tokens, as are 
+punctuation marks. Exception is made for abbreviations containing punctuation and/or 
+whitespace, which are kept together as one token with whitespace replaced by an underscore,
+e.g., <code>t.ex.</code> and <code>t_ex</code>.
+<p>
+Sentences are segmented according to the principles of SUC, where a sentence is treated as 
+the longest sequence of tokens between two major delimiters, defined as one of the punctuation
+marks <code>.</code>, <code>?</code>, <code>!</code>, <code>:</code>, or combinations thereof. In addition, list items are treated
+as separate sentences.
+
+<h2>Morphological Annotation</h2>
+
+[Sofia?]
+
+<h2>Syntactic Annotation</h2>
+
+The syntactic annotation of each sentence takes the form of a constituent structure, where 
+constituents are labeled with structural categories (phrase types), 
+while edges connecting constituents are labeled with functional categories
+(grammatical functions) indicating the role of the lower constituent within 
+the higher. The set of structural categories used is a small set of conventional
+phrase types, such as S for sentence/clause, NP for noun phrase, VP for verb
+phrase, etc. The set of functional categories is inherited from the MAMBA 
+annotation scheme with a small extension for structures that were not annotated 
+in the original version of Talbanken.
+<p>
+<ul>
+ <li><a href="PS.html">Structural categories (phrase types)</a>
+ <li><a href="GF.html">Functional categories (grammatical functions)</a>
+</ul>
+For a detailed description of the functional categories inherited from MAMBA,
+we refer to [<a href="#MAMBA">4</a>].
+
+<h2>Encoding Format</h2>
+
+Version 1.0 of the Swedish Treebank is encoded in <a href="http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch/doc/html/TigerXML.html">TIGER-XML</a> and is limited to two layers of annotation, the morphological and 
+syntactic layers, as described above. Future releases of the treebank are likely to use standoff annotation
+and include additional annotation layers from the source treebanks. One advantage of the TIGER-XML format
+is that it supports easy browsing using <a href="http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch/">TIGERSearch</a>, a GUI-based tool with advanced search facilities.
+
+<h2>Acknowledgments</h2>
+
+We gratefully acknowledge the work done by the original creators of Talbanken at Lund University 
+[<a href="#T1">1</a>, <a href="#T2">2</a>, <a href="#MAMBA">4</a>, <a href="#T3">5</a>, 
+<a href="#T4">6</a>, <a href="#T5">7</a>, <a href="#T8">8</a>] 
+and of SUC at Stockholm University and Ume&aring; University [<a href="#SUC">3</a>, ...], 
+without which the Swedish Treebank 
+clearly would not have existed at all. The work on synthesizing the treebank has been carried out by 
+Joakim Nivre, Be&aacute;ta Megyesi, Sofia Gustafson-Capkov&aacute;, Filip Salomonsson, Bengt Dahlqvist,
+and Anna S&aring;gvall Hein at Uppsala University and by Johan Hall and Jens Nilsson at V&auml;xj&ouml;
+University. Finally, we want to thank Lars Borin and his team at Spr&aring;kbanken for their help in 
+distributing the Swedish Treebank. 
+
+<h2>References</h2>
+
+<ol>
+<li id="T1">Einarsson, Jan. 1976. Talbankens skriftspråkskonkordans. Lund University: 
+Department of Scandinavian Languages.</li>
+<li id="T2">Einarsson, Jan. 1976. Talbankens talspråkskonkordans. Lund University:
+Department of Scandinavian Languages.</li>
+<li id="SUC">Stockholm-Ume&aring; Corpus SUC 2.0. 2006. Stockholm University:
+Department of Linguistics.</li>
+<li id="MAMBA">Teleman, Ulf. 1974. Manual för grammatisk beskrivning av talad och
+skriven svenska. Studentlitteratur.</li>
+<li id="T3">Margareta Westman. 1974. Bruksprosa. Liber.</li>
+<li id="T4">Nils Jörgensen. 1976. Meningsbyggnaden i talad svenska. Studentlitteratur.</li>
+<li id="T5">Tor G. Hultman and Margareta Westman. 1977. Gymnasistsvenska. Liber.</li>
+<li id="T6">Jan Einarsson. 1978. Talad och skriven svenska. Lund University:
+Department of Scandinavian Languages.</li>
+
+</ol>
+
+</BODY>
+
+</HTML>
+
