@@ -7,5 +7,5 @@ author_profile: true
 
 {% include base_path %}
 
-* [Short CV](cv-short.pdf)
-* [Full CV](cv.pdf)
+* [Short CV](/files/cv-short.pdf)
+* [Full CV](/files/cv.pdf)
