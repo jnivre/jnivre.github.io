@@ -11,4 +11,4 @@ author_profile: true
 
 {% include base_path %}
 
-[List of Publications](/publications/bibliography.html)
+[List of Publications](/_publications/bibliography.html)
