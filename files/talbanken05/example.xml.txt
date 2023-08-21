@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<treebank xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:treebank="http://www.msi.vxu.se/~rics/treebank" xsi:schemaLocation="http://www.msi.vxu.se/~rics/treebank treebank.xsd" id="treebank1">
+	<head>
+		<annotation>
+			<attribute name="form"/>
+			<attribute name="lemma"/>
+			<attribute name="head"/>
+			<attribute name="postag">
+				<value name="ab"/>
+				<value name="ab.kom"/>
+				<value name="ab.pos"/>
+				<value name="ab.sms"/>
+				<value name="ab.suv"/>
+				<value name="dt.mas.sin.ind/def"/>
+				<value name="dt.neu.sin.def"/>
+				<value name="dt.neu.sin.ind"/>
+				<value name="dt.neu.sin.ind/def"/>
+				<value name="dt.utr.sin.def"/>
+				<value name="dt.utr.sin.ind"/>
+				<value name="dt.utr.sin.ind/def"/>
+				<value name="dt.utr/neu.plu.def"/>
+				<value name="dt.utr/neu.plu.ind"/>
+				<value name="dt.utr/neu.plu.ind/def"/>
+				<value name="dt.utr/neu.sin.def"/>
+				<value name="dt.utr/neu.sin.ind"/>
+				<value name="dt.utr/neu.sin/plu.ind"/>
+				<value name="ha"/>
+				<value name="hd.neu.sin.ind"/>
+				<value name="hd.utr.sin.ind"/>
+				<value name="hd.utr/neu.plu.ind"/>
+				<value name="hp.-.-.-"/>
+				<value name="hp.neu.sin.ind"/>
+				<value name="hp.neu.sin.ind.sms"/>
+				<value name="hp.utr.sin.ind"/>
+				<value name="hp.utr/neu.plu.ind"/>
+				<value name="hs.def"/>
+				<value name="ie"/>
+				<value name="in"/>
+				<value name="jj.gen"/>
+				<value name="jj.kom.sms"/>
+				<value name="jj.kom.utr/neu.sin/plu.ind/def.nom"/>
+				<value name="jj.pos.mas.sin.def.nom"/>
+				<value name="jj.pos.neu.sin.ind.nom"/>
+				<value name="jj.pos.neu.sin.ind/def.nom"/>
+				<value name="jj.pos.utr.-.-.sms"/>
+				<value name="jj.pos.utr.sin.ind.nom"/>
+				<value name="jj.pos.utr.sin.ind/def.nom"/>
+				<value name="jj.pos.utr/neu.-.-.sms"/>
+				<value name="jj.pos.utr/neu.plu.ind.nom"/>
+				<value name="jj.pos.utr/neu.plu.ind/def.nom"/>
+				<value name="jj.pos.utr/neu.sin.def.nom"/>
+				<value name="jj.pos.utr/neu.sin/plu.ind/def.nom"/>
+				<value name="jj.suv.mas.sin.def.nom"/>
+				<value name="jj.suv.utr/neu.plu.def.nom"/>
+				<value name="jj.suv.utr/neu.sin/plu.def.nom"/>
+				<value name="jj.suv.utr/neu.sin/plu.ind.nom"/>
+				<value name="kn"/>
+				<value name="mad"/>
+				<value name="mid"/>
+				<value name="nn"/>
+				<value name="nn.-.-.-.-"/>
+				<value name="nn.-.-.-.sms"/>
+				<value name="nn.neu.-.-.-"/>
+				<value name="nn.neu.-.-.sms"/>
+				<value name="nn.neu.plu.def.gen"/>
+				<value name="nn.neu.plu.def.nom"/>
+				<value name="nn.neu.plu.ind.gen"/>
+				<value name="nn.neu.plu.ind.nom"/>
+				<value name="nn.neu.sin.def.gen"/>
+				<value name="nn.neu.sin.def.nom"/>
+				<value name="nn.neu.sin.def.nom.set"/>
+				<value name="nn.neu.sin.ind.gen"/>
+				<value name="nn.neu.sin.ind.nom"/>
+				<value name="nn.neu.sin.ind.nom.set"/>
+				<value name="nn.utr.-.-.-"/>
+				<value name="nn.utr.-.-.sms"/>
+				<value name="nn.utr.plu.def.gen"/>
+				<value name="nn.utr.plu.def.nom"/>
+				<value name="nn.utr.plu.ind.gen"/>
+				<value name="nn.utr.plu.ind.nom"/>
+				<value name="nn.utr.sin.def.gen"/>
+				<value name="nn.utr.sin.def.nom"/>
+				<value name="nn.utr.sin.def.nom.dat"/>
+				<value name="nn.utr.sin.def.nom.set"/>
+				<value name="nn.utr.sin.ind.gen"/>
+				<value name="nn.utr.sin.ind.nom"/>
+				<value name="nn.utr.sin.ind.nom.dat"/>
+				<value name="nn.utr.sin.ind.nom.set"/>
+				<value name="pad"/>
+				<value name="pc.gen"/>
+				<value name="pc.prs.utr/neu.sin/plu.ind/def.nom"/>
+				<value name="pl"/>
+				<value name="pm.gen"/>
+				<value name="pm.nom"/>
+				<value name="pm.sms"/>
+				<value name="pn.mas.sin.def.sub/obj"/>
+				<value name="pn.neu.sin.def.sub/obj"/>
+				<value name="pn.neu.sin.ind.sub/obj"/>
+				<value name="pn.utr.plu.def.obj"/>
+				<value name="pn.utr.plu.def.sub"/>
+				<value name="pn.utr.sin.def.obj"/>
+				<value name="pn.utr.sin.def.sub"/>
+				<value name="pn.utr.sin.def.sub/obj"/>
+				<value name="pn.utr.sin.ind.sub"/>
+				<value name="pn.utr.sin.ind.sub/obj"/>
+				<value name="pn.utr/neu.plu.def.obj"/>
+				<value name="pn.utr/neu.plu.def.sub"/>
+				<value name="pn.utr/neu.plu.def.sub/obj"/>
+				<value name="pn.utr/neu.plu.ind.sub/obj"/>
+				<value name="pn.utr/neu.sin/plu.def.obj"/>
+				<value name="pp"/>
+				<value name="ps.neu.sin.def"/>
+				<value name="ps.utr.sin.def"/>
+				<value name="ps.utr/neu.plu.def"/>
+				<value name="ps.utr/neu.sin/plu.def"/>
+				<value name="rg.gen"/>
+				<value name="rg.neu.sin.ind.nom"/>
+				<value name="rg.nom"/>
+				<value name="rg.sin.nom"/>
+				<value name="rg.sms"/>
+				<value name="rg.utr.sin.ind.nom"/>
+				<value name="ro.gen"/>
+				<value name="ro.mas.sin.ind/def.gen"/>
+				<value name="ro.mas.sin.ind/def.nom"/>
+				<value name="ro.nom"/>
+				<value name="ro.sin.nom"/>
+				<value name="ro.sms"/>
+				<value name="sn"/>
+				<value name="uo"/>
+				<value name="vb"/>
+				<value name="vb.imp"/>
+				<value name="vb.imp.akt.aux"/>
+				<value name="vb.imp.akt.kop"/>
+				<value name="vb.imp.akt.mod"/>
+				<value name="vb.inf.akt"/>
+				<value name="vb.inf.akt.aux"/>
+				<value name="vb.inf.akt.kop"/>
+				<value name="vb.inf.akt.mod"/>
+				<value name="vb.inf.sfo"/>
+				<value name="vb.kon.prs.akt"/>
+				<value name="vb.kon.prt"/>
+				<value name="vb.prs.akt"/>
+				<value name="vb.prs.akt.aux"/>
+				<value name="vb.prs.akt.kop"/>
+				<value name="vb.prs.akt.mod"/>
+				<value name="vb.prs.sfo"/>
+				<value name="vb.prs.sfo.kop"/>
+				<value name="vb.prt.akt"/>
+				<value name="vb.prt.akt.aux"/>
+				<value name="vb.prt.akt.kop"/>
+				<value name="vb.prt.akt.mod"/>
+				<value name="vb.prt.sfo"/>
+				<value name="vb.prt.sfo.kop"/>
+				<value name="vb.sms"/>
+				<value name="vb.sup.akt"/>
+				<value name="vb.sup.akt.kop"/>
+				<value name="vb.sup.akt.mod"/>
+				<value name="vb.sup.sfo"/>
+			</attribute>
+			<attribute name="deprel">
+				<value name="ADV"/>
+				<value name="APP"/>
+				<value name="ATT"/>
+				<value name="CC"/>
+				<value name="DET"/>
+				<value name="ID"/>
+				<value name="IM"/>
+				<value name="INF"/>
+				<value name="IP"/>
+				<value name="OBJ"/>
+				<value name="PR"/>
+				<value name="PRD"/>
+				<value name="SUB"/>
+				<value name="UK"/>
+				<value name="VC"/>
+				<value name="XX"/>
+				<value name="ROOT"/>
+			</attribute>
+			<attribute name="chunk">
+			        <value name="ADVPB"/>
+			        <value name="ADVPI"/>
+			        <value name="APB"/>
+			        <value name="API"/>
+			        <value name="INFPB"/>
+			        <value name="INFPI"/>
+			        <value name="NPB"/>
+			        <value name="NPI"/>
+				<value name="O"/>
+			        <value name="PPB"/>
+			        <value name="PPI"/>
+			        <value name="VCB"/>
+			        <value name="VCI"/>
+			</attribute>
+		</annotation>
+	</head>
+	<body>
+		<sentence id="1" user="" date="">
+			<word id="1" form="Individuell" lemma="individuell" postag="jj.pos.utr.sin.ind.nom" head="2" deprel="ATT" chunk="APB|NPB"/>
+			<word id="2" form="beskattning" lemma="beskattning" postag="nn.utr.sin.ind.nom" head="0" deprel="ROOT" chunk="NPI"/>
+			<word id="3" form="av" lemma="av" postag="pp" head="2" deprel="ATT" chunk="NPI|PPB"/>
+			<word id="4" form="arbetsinkomster" lemma="arbetsinkomst" postag="nn.utr.plu.ind.nom" head="3" deprel="PR" chunk="NPB|NPI|PPI"/>
+		</sentence>
+		<sentence id="2" user="" date="">
+			<word id="1" form="Genom" lemma="genom" postag="pp" head="3" deprel="ADV" chunk="PPB"/>
+			<word id="2" form="skattereformen" lemma="skattereform" postag="nn.utr.sin.def.nom" head="1" deprel="PR" chunk="NPB|PPI"/>
+			<word id="3" form="införs" lemma="införa" postag="vb.prs.sfo" head="0" deprel="ROOT" chunk="VCB"/>
+			<word id="4" form="individuell" lemma="individuell" postag="jj.pos.utr.sin.ind.nom" head="5" deprel="ATT" chunk="APB|NPB"/>
+			<word id="5" form="beskattning" lemma="beskattning" postag="nn.utr.sin.ind.nom" head="3" deprel="SUB" chunk="NPI"/>
+			<word id="6" form="(" lemma="(" postag="pad" head="5" deprel="IP" chunk="NPI"/>
+			<word id="7" form="särbeskattning" lemma="särbeskattning" postag="nn.utr.sin.ind.nom" head="5" deprel="APP" chunk="NPB|NPI"/>
+			<word id="8" form=")" lemma=")" postag="pad" head="5" deprel="IP" chunk="NPI"/>
+			<word id="9" form="av" lemma="av" postag="pp" head="5" deprel="ATT" chunk="PPB|NPI"/>
+			<word id="10" form="arbetsinkomster" lemma="arbetsinkomst" postag="nn.utr.plu.ind.nom" head="9" deprel="PR" chunk="NPB|NPI|PPI"/>
+			<word id="11" form="." lemma="." postag="mad" head="3" deprel="IP" chunk="O"/>
+		</sentence>
+		<sentence id="3" user="" date="">
+			<word id="1" form="Det" lemma="den" postag="pn.neu.sin.def.sub/obj" head="2" deprel="SUB" chunk="NPB"/>
+			<word id="2" form="innebär" lemma="innebära" postag="vb.prs.akt" head="0" deprel="ROOT" chunk="VCB"/>
+			<word id="3" form="bl." lemma="bland" postag="pp" head="2" deprel="ADV" chunk="ADVPB"/>
+			<word id="4" form="a." lemma="annat" postag="nn.neu.sin.ind.nom" head="3" deprel="ID" chunk="ADVPI"/>
+			<word id="5" form="att" lemma="att" postag="sn" head="2" deprel="OBJ" chunk="O"/>
+			<word id="6" form="endast" lemma="endast" postag="ab" head="7" deprel="ADV" chunk="ADVPB"/>
+			<word id="7" form="en" lemma="en" postag="dt.utr.sin.ind" head="8" deprel="DET" chunk="NPB"/>
+			<word id="8" form="skatteskala" lemma="skatteskala" postag="nn.utr.sin.ind.nom" head="9" deprel="SUB" chunk="NPI"/>
+			<word id="9" form="kommer" lemma="komma" postag="vb.prs.akt" head="5" deprel="UK" chunk="VCB"/>
+			<word id="10" form="att" lemma="att" postag="ie" head="9" deprel="VC" chunk="VCI"/>
+			<word id="11" form="finnas" lemma="finna" postag="vb.inf.sfo" head="10" deprel="IM" chunk="VCB"/>
+			<word id="12" form="för" lemma="för" postag="pp" head="11" deprel="ADV" chunk="PPB"/>
+			<word id="13" form="beräkning" lemma="beräkning" postag="nn.utr.sin.ind.nom" head="12" deprel="PR" chunk="NPB|PPI"/>
+			<word id="14" form="av" lemma="av" postag="pp" head="13" deprel="ATT" chunk="NPI|PPB|PPI"/>
+			<word id="15" form="statlig" lemma="statlig" postag="jj.pos.utr.sin.ind.nom" head="16" deprel="ATT" chunk="APB|NPI|PPI|PPI"/>
+			<word id="16" form="inkomstskatt" lemma="inkomstskatt" postag="nn.utr.sin.ind.nom" head="14" deprel="PR" chunk="NPB|NPI|PPI|PPI"/>
+			<word id="17" form="." lemma="." postag="mad" head="2" deprel="IP" chunk="O"/>
+		</sentence>
+		<sentence id="4" user="" date="">
+			<word id="1" form="Den" lemma="den" postag="pn.utr.sin.def.sub/obj" head="2" deprel="SUB" chunk="NPB"/>
+			<word id="2" form="blir" lemma="bli" postag="vb.prs.akt.kop" head="0" deprel="ROOT" chunk="VCB"/>
+			<word id="3" form="gemensam" lemma="gemensam" postag="jj.pos.utr.sin.ind.nom" head="2" deprel="PRD" chunk="APB"/>
+			<word id="4" form="för" lemma="för" postag="pp" head="2" deprel="ADV" chunk="PPB"/>
+			<word id="5" form="alla" lemma="all" postag="dt.utr/neu.plu.ind/def" head="6" deprel="DET" chunk="NPB|PPI"/>
+			<word id="6" form="inkomsttagare" lemma="inkomsttagare" postag="nn.utr.plu.ind.nom" head="4" deprel="PR" chunk="NPI|PPI"/>
+			<word id="7" form="oavsett" lemma="oavsedd" postag="jj.pos.neu.sin.ind.nom" head="2" deprel="ADV" chunk="PPB"/>
+			<word id="8" form="civilstånd" lemma="civilstånd" postag="nn.neu.sin.ind.nom" head="7" deprel="PR" chunk="NPB|PPI"/>
+			<word id="9" form="." lemma="." postag="mad" head="2" deprel="IP" chunk="O"/>
+		</sentence>
+		<sentence id="5" user="" date="">
+			<word id="1" form="Den" lemma="den" postag="pn.utr.sin.def.sub/obj" head="2" deprel="SUB" chunk="NPB"/>
+			<word id="2" form="gäller" lemma="gälla" postag="vb.prs.akt" head="0" deprel="ROOT" chunk="VCB"/>
+			<word id="3" form="även" lemma="även" postag="ab" head="2" deprel="ADV" chunk="ADVPB"/>
+			<word id="4" form="för" lemma="för" postag="ab" head="2" deprel="ADV" chunk="PPB"/>
+			<word id="5" form="oskifta" lemma="oskifta" postag="jj.pos.utr/neu.sin/plu.ind/def.nom" head="6" deprel="ATT" chunk="APB|NPB|PPI"/>
+			<word id="6" form="dödsbon" lemma="dödsbo" postag="nn.neu.plu.ind.nom" head="4" deprel="PR" chunk="NPI|PPI"/>
+			<word id="7" form="och" lemma="och" postag="kn" head="6" deprel="CC" chunk="NPI|PPI"/>
+			<word id="8" form="familjestiftelser" lemma="familjestiftelse" postag="nn.utr.plu.ind.nom" head="7" deprel="CC" chunk="NPB|NPI|PPI"/>
+			<word id="9" form="." lemma="." postag="mad" head="2" deprel="IP" chunk="O"/>
+		</sentence>
+		<sentence id="6" user="" date="">
+			<word id="1" form="De" lemma="den" postag="dt.utr/neu.plu.def" head="2" deprel="DET" chunk="NPB"/>
+			<word id="2" form="inkomster" lemma="inkomst" postag="nn.utr.plu.ind.nom" head="9" deprel="SUB" chunk="NPI"/>
+			<word id="3" form="som" lemma="som" postag="hp.-.-.-" head="7" deprel="SUB" chunk="NPI"/>
+			<word id="4" form="på" lemma="på" postag="pp" head="7" deprel="ADV" chunk="NPI|PPB"/>
+			<word id="5" form="detta" lemma="denna" postag="dt.neu.sin.def" head="6" deprel="DET" chunk="NPB|NPI|PPI"/>
+			<word id="6" form="sätt" lemma="sätt" postag="nn.neu.sin.ind.nom" head="4" deprel="PR" chunk="NPI|NPI|PPI"/>
+			<word id="7" form="beskattas" lemma="beskatta" postag="vb.prs.sfo" head="2" deprel="ATT" chunk="NPI|VCB"/>
+			<word id="8" form="individuellt" lemma="individuell" postag="ab.pos" head="7" deprel="ADV" chunk="ADVPB|NPI"/>
+			<word id="9" form="kallas" lemma="kalla" postag="vb.prs.sfo.kop" head="0" deprel="ROOT" chunk="VCB"/>
+			<word id="10" form="A-inkomster" lemma="A-inkomst" postag="nn.utr.plu.ind.nom" head="9" deprel="PRD" chunk="NPB"/>
+			<word id="11" form="." lemma="." postag="mad" head="9" deprel="IP" chunk="O"/>
+		</sentence>
+	</body>
+</treebank>
