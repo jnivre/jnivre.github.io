@@ -1,10 +1,11 @@
 ---
+layout: "archive"
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-[List of publications](/_publications/bibliography.html)
+[List of publications](/publications/bibliography.html)
 
 You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 
