@@ -27,9 +27,9 @@ The archive available for download contains the entire treebank (divided into
 sections P, G, IB and SD) in four versions:
 <ol>
 <li>MAMBA: Original syntactic and lexical annotation, (original text encoding in ISO-8859-1)
-<li>FPS:   Flat phrase structure annotation (<a href="http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch/doc/html/TigerXML.html">TIGER-XML</a> encoding in ISO-8859-1)
-<li>DPS:   Deepened phrase structure annotation (<a href="http://www.ims.uni-stuttgart.de/projekte/TIGER/TIGERSearch/doc/html/TigerXML.html">TIGER-XML</a> encoding in ISO-8859-1)
-<li>Dep:   Dependency structure annotation (<a href="MaltXML.html">Malt-XML</a> encoding in ISO-8859-1 and <a href="http://nextens.uvt.nl/~conll/">CoNLL-X shared task</a> format in UTF-8)
+<li>FPS:   Flat phrase structure annotation (TIGER-XML encoding in ISO-8859-1)
+<li>DPS:   Deepened phrase structure annotation (TIGER-XML encoding in ISO-8859-1)
+<li>Dep:   Dependency structure annotation (<a href="MaltXML.html">Malt-XML</a> encoding in ISO-8859-1 and CoNLL-X format in UTF-8)
 </ol>
 Relation to earlier versions:
 <ul>
@@ -37,8 +37,7 @@ Relation to earlier versions:
 information from the lexical layer in MAMBA in the part-of-speech annotation in FPS, DPS
 and Dep, whereas version 1.0 only includes basic parts-of-speech. In addition, a new
 version of Dep has been added in the format used in the 
-<a href="http://nextens.uvt.nl/~conll/">CoNLL-X shared task</a> on multilingual
-dependency parsing. 
+CoNLL-X shared task on multilingual dependency parsing. 
 </ul>
 Below we give a brief description of the original treebank (Talbanken76), the 
 process of conversion, and the three different annotation standards (FPS, DPS, Dep).
@@ -46,16 +45,16 @@ The conversion is described more fully in the following papers:
 <ul>
 <li><b>Overview:</b>
 Joakim Nivre, Jens Nilsson and Johan Hall (2006) 
-<a href="../docs/talbanken05.pdf">Talbanken05: A Swedish Treebank 
+<a href="http://www.lrec-conf.org/proceedings/lrec2006/pdf/223_pdf">Talbanken05: A Swedish Treebank 
     with Phrase Structure and Dependency Annotation</a>. In <i>Proceedings of the 
     fifth international conference on Language Resources and Evaluation 
     (LREC2006)</i>, May 24-26, 2006, Genoa, Italy.
 <li><b>More detailed overview:</b>
-Jens Nilsson, Johan Hall and Joakim Nivre (2005) <a href="../docs/treebank_nodalida05.pdf">MAMBA Meets TIGER: 
+Jens Nilsson, Johan Hall and Joakim Nivre (2005) <a href="https://cl.lingfil.uu.se/~nivre/docs/treebank_nodalida05.pdf">MAMBA Meets TIGER: 
     Reconstructing a Swedish Treebank from Antiquity.</a> In <i>Proceedings 
     of the NODALIDA Special Session on Treebanks</i>.
 <li><b>In-depth description of the reconstruction:</b>
-Jens Nilsson and Johan Hall (2005) <a href="http://w3.msi.vxu.se/~jni/papers/msi_report05067.pdf">Reconstruction of the Swedish Treebank 
+Jens Nilsson and Johan Hall (2005) <a href="http://www.diva-portal.org/smash/get/diva2:204779/FULLTEXT01.pdf">Reconstruction of the Swedish Treebank 
     Talbanken</a>. MSI report 05067. Växjö University: School of Mathematics 
     and Systems Engineering.
 </ul>
@@ -198,7 +197,7 @@ uses a <a href="priority_list.txt">priority list</a> for finding the head of a p
 
 <h2>CPOSTAG, POSTAG and FEATS in CoNLL Format</h2>
 
-In the <a href="http://nextens.uvt.nl/~conll/">CoNLL-X shared task</a> format, information
+In the CoNLL-X format, information
 from the lexical categories in the MAMBA annotation is distributed over 3 fields:
 <ol>
 <li>Coarse-grained part-of-speech (CPOSTAG)
