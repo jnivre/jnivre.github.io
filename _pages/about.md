@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my home page! I am Professor of Computational Linguistics at [Uppsala University](https://www.katalog.uu.se/profile/?id=N5-800) and Senior Researcher at [RISE](https://www.ri.se/sv/person/joakim-nivre) (Research Institutes of Sweden). 
+Welcome to my home page! I am Professor of Computational Linguistics at [Uppsala University](https://www.katalog.uu.se/profile/?id=N5-800) and Senior Researcher at [RISE](https://www.ri.se/sv/person/joakim-nivre/) (Research Institutes of Sweden). 
 
 In my research I try to understand natural language from a computational perspective, focusing on how languages around the world use morphosyntax to encode meaning. 
 
